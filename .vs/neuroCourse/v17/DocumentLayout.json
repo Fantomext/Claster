@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Claster\\Claster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|K:\\Claster\\Claster\\kohonennetwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|solutionrelative:kohonennetwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|k:\\claster\\claster\\kohonennetwork\\webs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|solutionrelative:kohonennetwork\\webs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|K:\\Claster\\Claster\\kohonennetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|solutionrelative:kohonennetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|K:\\Claster\\Claster\\kohonennetwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|solutionrelative:kohonennetwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|K:\\Claster\\Claster\\kohonennetwork\\clasteriztaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|solutionrelative:kohonennetwork\\clasteriztaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|K:\\Claster\\Claster\\kohonennetwork\\qualityclaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|solutionrelative:kohonennetwork\\qualityclaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|K:\\Claster\\Claster\\kohonennetwork\\neuron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60089026-3D73-45A1-9FBB-DF17DE0489BB}|kohonenNetwork\\Claster.csproj|solutionrelative:kohonennetwork\\neuron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "K:\\Claster\\Claster\\kohonenNetwork\\Form1.cs",
+              "RelativeDocumentMoniker": "kohonenNetwork\\Form1.cs",
+              "ToolTip": "K:\\Claster\\Claster\\kohonenNetwork\\Form1.cs",
+              "RelativeToolTip": "kohonenNetwork\\Form1.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA3wCAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T18:43:39.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Webs.cs",
+              "DocumentMoniker": "K:\\Claster\\Claster\\kohonenNetwork\\Webs.cs",
+              "RelativeDocumentMoniker": "kohonenNetwork\\Webs.cs",
+              "ToolTip": "K:\\Claster\\Claster\\kohonenNetwork\\Webs.cs",
+              "RelativeToolTip": "kohonenNetwork\\Webs.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T21:55:02.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "K:\\Claster\\Claster\\kohonenNetwork\\Form1.cs",
+              "RelativeDocumentMoniker": "kohonenNetwork\\Form1.cs",
+              "ToolTip": "K:\\Claster\\Claster\\kohonenNetwork\\Form1.cs [Design]",
+              "RelativeToolTip": "kohonenNetwork\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T21:14:40.178Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Claster\\Claster\\kohonenNetwork\\Program.cs",
+              "RelativeDocumentMoniker": "kohonenNetwork\\Program.cs",
+              "ToolTip": "K:\\Claster\\Claster\\kohonenNetwork\\Program.cs",
+              "RelativeToolTip": "kohonenNetwork\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T21:09:07.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clasteriztaion.cs",
+              "DocumentMoniker": "K:\\Claster\\Claster\\kohonenNetwork\\Clasteriztaion.cs",
+              "RelativeDocumentMoniker": "kohonenNetwork\\Clasteriztaion.cs",
+              "ToolTip": "K:\\Claster\\Claster\\kohonenNetwork\\Clasteriztaion.cs",
+              "RelativeToolTip": "kohonenNetwork\\Clasteriztaion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T18:43:36.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QualityClaster.cs",
+              "DocumentMoniker": "K:\\Claster\\Claster\\kohonenNetwork\\QualityClaster.cs",
+              "RelativeDocumentMoniker": "kohonenNetwork\\QualityClaster.cs",
+              "ToolTip": "K:\\Claster\\Claster\\kohonenNetwork\\QualityClaster.cs",
+              "RelativeToolTip": "kohonenNetwork\\QualityClaster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T18:43:36.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Neuron.cs",
+              "DocumentMoniker": "K:\\Claster\\Claster\\kohonenNetwork\\Neuron.cs",
+              "RelativeDocumentMoniker": "kohonenNetwork\\Neuron.cs",
+              "ToolTip": "K:\\Claster\\Claster\\kohonenNetwork\\Neuron.cs",
+              "RelativeToolTip": "kohonenNetwork\\Neuron.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIAywC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T18:43:34.955Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

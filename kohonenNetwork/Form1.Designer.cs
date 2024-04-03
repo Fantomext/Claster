@@ -41,12 +41,11 @@
             // numClusters
             // 
             numClusters.Location = new Point(99, 175);
-            numClusters.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             numClusters.Minimum = new decimal(new int[] { 2, 0, 0, 0 });
             numClusters.Name = "numClusters";
             numClusters.Size = new Size(120, 23);
             numClusters.TabIndex = 0;
-            numClusters.Value = new decimal(new int[] { 2, 0, 0, 0 });
+            numClusters.Value = new decimal(new int[] { 3, 0, 0, 0 });
             // 
             // label1
             // 
@@ -92,6 +91,7 @@
             outputBox.Location = new Point(0, 262);
             outputBox.Multiline = true;
             outputBox.Name = "outputBox";
+            outputBox.ScrollBars = ScrollBars.Vertical;
             outputBox.Size = new Size(672, 232);
             outputBox.TabIndex = 3;
             // 

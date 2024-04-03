@@ -1,0 +1,7 @@
+K:\Claster\Claster\SilhoetteCoefficientConsole\bin\Debug\SilhoetteCoefficientConsole.exe.config
+K:\Claster\Claster\SilhoetteCoefficientConsole\bin\Debug\SilhoetteCoefficientConsole.exe
+K:\Claster\Claster\SilhoetteCoefficientConsole\bin\Debug\SilhoetteCoefficientConsole.pdb
+K:\Claster\Claster\SilhoetteCoefficientConsole\obj\Debug\SilhoetteCoefficientConsole.csproj.AssemblyReference.cache
+K:\Claster\Claster\SilhoetteCoefficientConsole\obj\Debug\SilhoetteCoefficientConsole.csproj.CoreCompileInputs.cache
+K:\Claster\Claster\SilhoetteCoefficientConsole\obj\Debug\SilhoetteCoefficientConsole.exe
+K:\Claster\Claster\SilhoetteCoefficientConsole\obj\Debug\SilhoetteCoefficientConsole.pdb

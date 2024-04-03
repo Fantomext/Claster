@@ -3,14 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using Claster;
 
 namespace kohonenNetwork
 {
-    internal class Clasteriztaion
+    public class Clasteriztaion
     {
         private List<Neuron> _neurons = new List<Neuron>();
         private double[] _input;
         private Dictionary<int, string> _output = new Dictionary<int, string>();
+        private QualityClaster _quality = new QualityClaster();
+        double coef;
+        double[][] dataset;
+        //Айтем-1 кластер
+        //Айтем-2 Номер образца
+        //Айтем-3 Данные образца
+        private List<(double, double)> dataOut = new List<(double, double)>();
+        int dataIndex = 0;
+
         public Clasteriztaion(int inputSize, int numClusters)
         {
             _input = new double[inputSize];
@@ -27,7 +38,7 @@ namespace kohonenNetwork
 
         public void SelfOrganizingMaps(double delta, double learningSpeed, string filePath)
         {
-            double[][] dataset = ReadDataTxt(filePath);
+            dataset = ReadDataTxt(filePath);
 
             while (learningSpeed > 0)
             {
@@ -42,6 +53,8 @@ namespace kohonenNetwork
                 }
                 learningSpeed -= delta;
             }
+            List<double> value = new List<double>();
+
             for (int line = 0; line < dataset.Length; line++)
             {
                 _input = dataset[line];
@@ -54,10 +67,28 @@ namespace kohonenNetwork
                 {
                     _output[idCluster] = "Включает в себя образцы с номерами: " + (line + 1);
                 }
+
+                for (int i = 0; i < 3; i++)
+                {
+                    value.Add(dataset[dataIndex][i]);
+                }
+                dataOut.Add((idCluster, line));
+                dataIndex++;
             }
-            int a = 0;
+            CalculateQuality();
+        }
+
+        private void CalculateQuality()
+        {
+            _quality.ConverterData(dataOut, dataset);
+            _quality.CalculateSilhouetteCoefficient();
+            coef = _quality.SilhouetteCoefficient;
         }
         
+        public double ReturnCoef()
+        {
+            return _quality.SilhouetteCoefficient;
+        }
 
         private int FindClosestCluster()
         {
@@ -79,7 +110,7 @@ namespace kohonenNetwork
 
         private double[][] ReadDataTxt(string filePath)
         {
-            double[][] dataset = new double[System.IO.File.ReadAllLines(filePath).Length][];
+            double[][] dataset = new double[File.ReadAllLines(filePath).Length][];
             using (StreamReader sr = new StreamReader(filePath))
             {
                 string? line;

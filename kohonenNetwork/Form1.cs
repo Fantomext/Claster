@@ -1,3 +1,5 @@
+using Claster;
+
 namespace kohonenNetwork
 {
     public partial class Form1 : Form
@@ -7,7 +9,8 @@ namespace kohonenNetwork
         ???????????? - ?? 0 ?? 100000 (????)
         ?????? - ?? 100 ?? 2000 (?? ? ???)
          */
-        string path = "data.txt";
+
+        Webs webs = new Webs();
         public Form1()
         {
             InitializeComponent();
@@ -16,13 +19,21 @@ namespace kohonenNetwork
         private void button1_Click(object sender, EventArgs e)
         {
             outputBox.Clear();
-            Clasteriztaion kohWeb = new Clasteriztaion(Convert.ToInt32(numParams.Value), Convert.ToInt32(numClusters.Value));
-            kohWeb.SelfOrganizingMaps(0.0001, 0.3, path);
-            Dictionary <int,string> output = kohWeb.getOutput();
+
+            webs.CreateWebs((int)numClusters.Value, (int)numParams.Value);
+
+            //webs.PrintWebs(outputBox);
+
+            webs.FindBestClasterisation();
+
+            Dictionary<int,string> output = webs._bestClaster.getOutput();
+
             foreach (var item in output)
             {
-                outputBox.Text += item.ToString() + '\r' + '\n';
+                outputBox.Text += item + Environment.NewLine;
             }
+
+            int a = 3;
         }
     }
 }
